@@ -1,0 +1,131 @@
+body {
+        box-sizing: border-box;
+        margin:0;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.89);
+        font-family: arial, sans-serif; 
+}
+header {
+    text-align: center;
+    padding: 30px;
+    font-size: 35pt;}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {overflow: hidden;
+    background-color: rgba(41, 204, 41, 0.841);
+    margin-bottom: 1cm;}
+nav a {float:left;
+    display:block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 20px;}
+nav a:hover {background-color: #ddd;
+    color: rgba(41, 204, 41, 0.841);
+    transition: 0.4s;}
+nav input {float:  right;
+    margin-right: 100px;
+    margin-top: 12px;}
+.iklantop img {
+    width: 600px;
+    height: 100px;
+    float: left;
+    padding: 3px;
+}
+.iklantop1 {
+    margin-left: 55px;
+}
+.main iframe {
+        width: 854px;
+        height: 480px;
+}
+.main {
+        float: left;
+        width: 72%;
+        margin-left: 40px;
+}
+.main h2 {
+    width: 854px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.deskripsi {
+    margin-top: 1cm;
+}
+.deskripsi a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(86, 86, 86);
+    border-radius: 10px;
+    background-color: rgb(86, 86, 86);
+    padding: 3px;
+}
+.actress a {
+    margin-left: 50px;
+}
+.category a {
+    margin-left: 38px;
+}
+.hastag a {
+    display: inline-block;
+    margin-right: 1cm;
+}
+.side {
+    float: left;
+    width: 23%;
+    margin-top: 2.5cm;
+    margin-bottom: 6cm;
+}
+.side img {
+    width: 230px;
+    height: 230px;
+    padding: 3px;
+}
+.section1 {
+    width: 73%;
+    float: left;
+    margin-left: 30px;
+}
+.section1 img {
+    width: 200px;
+}
+.section1 p {
+    width: 200px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.section1 a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+.section1 h2 {
+    margin-left: 10px;
+}
+.sectionside img {
+    width: 230px;
+    height: 230px;
+    padding: 3px;
+}
+footer {
+    float: left;
+    text-align: center;
+    margin-top: 5cm;
+    margin-left: 35%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+}
